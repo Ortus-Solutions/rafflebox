@@ -1,0 +1,45 @@
+{
+    "name":"Raffle Box",
+    "version":"1.0.0",
+    "author":"Ortus Solutions, Corp",
+    "location":"Ortus-Solutions/rafflebox#v1.0.0",
+    "homepage":"https://github.com/Ortus-Solutions/rafflebox",
+    "documentation":"https://github.com/Ortus-Solutions/rafflebox",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/Ortus-Solutions/rafflebox"
+    },
+    "bugs":"https://github.com/Ortus-Solutions/rafflebox/issues",
+    "slug":"rafflebox",
+    "shortDescription":"A sweet package to do raffles with",
+    "type":"projects",
+    "keywords":[
+        
+    ],
+    "license":[
+        {
+            "type":"Apache2",
+            "URL":"https://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    },
+    "scripts":{
+        
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
