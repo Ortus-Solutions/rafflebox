@@ -12,7 +12,7 @@ component {
             .blueLine( "Drum roll please....." & chr(10) )
             .toConsole();
 
-        sleep( 3000 );
+        sleep( delay );
 
         print.greenLine( "The winner is : " & #attendees[ winner ]# & chr(10) & "You won a brand new...." );
     }
