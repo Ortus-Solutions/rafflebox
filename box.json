@@ -1,6 +1,6 @@
 {
     "name":"RaffleBox",
-    "version":"1.1.1",
+    "version":"1.2.0",
     "author":"Ortus Solutions, Corp",
     "location":"forgeboxStorage",
     "homepage":"https://github.com/Ortus-Solutions/rafflebox",
@@ -13,30 +13,18 @@
     "slug":"rafflebox",
     "shortDescription":"A sweet package to do raffles with",
     "type":"projects",
-    "keywords":[
-        
-    ],
+    "keywords":[],
     "license":[
         {
             "type":"Apache2",
             "URL":"https://www.apache.org/licenses/LICENSE-2.0"
         }
     ],
-    "contributors":[
-        
-    ],
-    "dependencies":{
-        
-    },
-    "devDependencies":{
-        
-    },
-    "installPaths":{
-        
-    },
-    "scripts":{
-        
-    },
+    "contributors":[],
+    "dependencies":{},
+    "devDependencies":{},
+    "installPaths":{},
+    "scripts":{},
     "ignore":[
         "**/.*",
         "test",
