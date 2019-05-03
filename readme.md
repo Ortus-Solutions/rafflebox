@@ -1,6 +1,6 @@
 # RaffleBox
 
-Welcome to a simple random raffle generator.  
+Welcome to a simple random raffle generator.
 
 Requires CommandBox 3.7+ to make use of Task Runner functionality.
 

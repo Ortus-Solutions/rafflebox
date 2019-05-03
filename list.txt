@@ -1,6 +1,5 @@
 Adams Abram
 Alexander Brent
-Anderson Michael
 Ballisty Edward
 Becerril Javier
 Berry Scott
@@ -9,7 +8,6 @@ Brand Jake
 Callahan Michael
 Card Dan
 Clark Dennis
-Contreras Clinton
 Davis Andrew
 de Bruin Wil
 Dilks Clayton
@@ -31,7 +29,6 @@ Huxtable Brian
 Jeffords Ryan
 Jones Kevin
 Kang Jen
-Klaas Brian
 Knight Gary
 Knowlton Samuel
 Kunkel Jeffrey
@@ -43,7 +40,6 @@ Luitjens Joshua
 McCarty Chris
 McGovern Emmet
 McNeel Latisha
-Murphy George
 Neeve Jeff
 Neff Spencer
 Nelson Kristin
@@ -52,7 +48,6 @@ Ohlgren Brad
 Peters Travis
 Ramirez Lonnie
 Rast Miles
-SAMBOR PHILIPPE
 Sariol Rolando
 Schwinger Joe
 Smith Matt
@@ -62,5 +57,3 @@ Teel Doug
 Tye Adam
 Vannice Cavan
 Vigna David
-Watson Christopher
-Woodward Ian
