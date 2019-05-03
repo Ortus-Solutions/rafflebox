@@ -14,12 +14,13 @@ component {
 
         // pick a winner
         var winner = randRange( 1, attendees.len() );
-        // store the winner
-        winners.append( attendees[ winner ] );
-        fileWrite( "winners.txt", winners.toList( chr(10) ) );
         
         print.blueLine( "Drum roll please....." & chr(10) ).toConsole();
         sleep( arguments.delay );
         print.greenLine( "The winner is : " & #attendees[ winner ]# & chr(10) & "You won a brand new...." );
+
+        // store the winner
+        winners.append( attendees[ winner ] );
+        fileWrite( "winners.txt", winners.toList( chr(10) ) );
     }
 }
