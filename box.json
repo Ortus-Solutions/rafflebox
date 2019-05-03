@@ -1,8 +1,8 @@
 {
     "name":"RaffleBox",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "author":"Ortus Solutions, Corp",
-    "location":"Ortus-Solutions/rafflebox#v1.1.0",
+    "location":"forgeboxStorage",
     "homepage":"https://github.com/Ortus-Solutions/rafflebox",
     "documentation":"https://github.com/Ortus-Solutions/rafflebox",
     "repository":{
