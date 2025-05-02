@@ -2,10 +2,12 @@
 
 Welcome to a simple random raffle generator.
 
-Requires CommandBox 3.7+ to make use of Task Runner functionality.
+Requires BoxLang 1+
 
 ## Instructions
 
-Update the provided `list.txt` with names with text breaks. Then you can execute the task via `task run`. All winners are stored under `winners.txt`.
+* Update the provided `list.txt` with names with text breaks.
+* Run the raffle: `boxlang Win.bx`
+* All winners are stored under `winners.txt`.
 
 Enjoy!

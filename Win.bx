@@ -1,0 +1,35 @@
+class {
+
+    function main( args = []  ){
+        var options      = CLIGetArgs().options
+        var delay        = options.delay ?: 2000
+        var attendees   = fileRead( "list.txt" ).listToArray( char( 10 ) )
+
+        // Clear Winners?
+        if( options?.clear ){
+            fileDelete( "winners.txt" )
+            println( "Winners cleared." )
+            return
+        }
+
+        // read in past winners
+        if( fileExists( "winners.txt" ) ){
+            var winners = fileRead( "winners.txt" ).listToArray( char( 10 ) )
+        } else {
+            var winners = []
+        }
+
+        // Filter out past winners
+        attendees = attendees.filter( item => !arrayContainsNoCase( winners, item ) )
+        // pick a winner
+        var winner = randRange( 1, attendees.len() )
+
+        println( "Drum roll please....." & char(10) )
+        sleep( delay )
+        println( "The winner is : " & #attendees[ winner ]# & char(10) & "You won a brand new...." )
+
+        // store the winner
+        winners.append( attendees[ winner ] )
+        fileWrite( "winners.txt", winners.toList( char(10) ) )
+    }
+}
